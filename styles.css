@@ -1,0 +1,93 @@
+table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 5px solid #333333;
+  }
+  
+  thead th {
+    background-color: #666666;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  tbody td {
+    background-color: #444444;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+  }
+  
+
+  tfoot th {
+    background-color: #666666;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    border-top: 5px solid #333333;
+  }
+  
+  tfoot td {
+    background-color: #666666;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    border-top: 5px solid #333333;
+  }
+  
+  caption {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  body {
+    background-color: #222222;
+    color: #FFFFFF;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  footer {
+    background-color: #666666;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: auto;
+    border-top: 5px solid #333333;
+  }
+  
+  thead th {
+    border: 2px solid #333333;
+  }
+  
+  tfoot th, tfoot td {
+    border-top: 2px solid #333333;
+    border-bottom: none;
+  }
+  
+  tfoot td:first-child {
+    border-left: 5px solid #333333;
+  }
+  
+  tfoot td:last-child {
+    border-right: 5px solid #333333;
+  }
